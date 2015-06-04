@@ -10,6 +10,7 @@ class ImdbTags < Formula
   def install
     ENV["GOPATH"] = "#{buildpath}/Godeps/_workspace"
     system("mkdir -p #{buildpath}/Godeps/_workspace/src/github.com/dillonhafer/imdb-tags")
+    system("mv #{buildpath} #{buildpath}/Godeps/_workspace/src/github.com/dillonhafer/imdb-tags")
     system("go build -o imdb-tags")
     bin.install("imdb-tags")
   end
