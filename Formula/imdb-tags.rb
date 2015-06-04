@@ -8,7 +8,7 @@ class ImdbTags < Formula
   depends_on 'go' => :build
 
   def install
-    ENV["GOPATH"] = buildpath
+    ENV["GOPATH"] = "#{buildpath}/Godeps/_workspace"
     system("go build -o imdb-tags")
     bin.install("imdb-tags")
   end
