@@ -1,2 +1,3 @@
-# homebrew-formulas
-Homebrew Formulas
+# Homebrew Formulas
+
+`$ brew tap dillonhafer/formulas`
