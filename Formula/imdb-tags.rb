@@ -2,8 +2,8 @@ require 'formula'
 
 class ImdbTags < Formula
   homepage "http://imdb-tags.dillonhafer.com"
-  url "https://github.com/dillonhafer/imdb-tags/archive/v0.4.1.tar.gz"
-  sha1 "2d63e13460fa766137c14ccde9dbcd1d21cb8e7a"
+  url "https://github.com/dillonhafer/imdb-tags/archive/v0.4.2.tar.gz"
+  sha1 "83e6ab490b9664da7ae73ec2deaa31c4cd3f2d2c"
 
   depends_on 'go' => :build
 
